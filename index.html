@@ -19,7 +19,7 @@
   <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
   <!-- Webpage Title -->
-  <title>Website Page</title>
+  <title>SurveyOptimus website</title>
 
   <!-- Styles -->
   <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet"> -->
@@ -36,7 +36,7 @@
 <body data-bs-spy="scroll" data-bs-target="#navbarExample">
 
   <!-- Navigation -->
-  <nav id="navbarExample" class="navbar navbar-expand-lg globalPadding" style="padding-top: 1rem; padding-bottom: 0;"
+  <nav id="navbarExample" class="navbar navbar-expand-lg  globalPadding" style="padding-top: 1rem; padding-bottom: 0;"
     aria-label="Main navigation">
     <div class="container m-0">
       <!-- Image Logo -->
@@ -46,11 +46,11 @@
       <!-- Text Logo - Use this if you don't have a graphic logo -->
       <!-- <a class="navbar-brand logo-text" href="index.html">Zinc</a> -->
 
-      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+      <!-- <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
 
-      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+      <div class="navbar-collapse offcanvas-collapse top-nav-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav ms-auto navbar-nav-scroll">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#" target="_blank">How it
@@ -80,6 +80,9 @@
           <a class="btn-solid mb-lg-20" href="#contact">Signup</a>
         </span>
       </div> <!-- end of navbar-collapse -->
+      <a href="javascript:void(0);" class="icon">
+        <i class="fa fa-bars"></i>
+      </a>
     </div> <!-- end of container -->
   </nav> <!-- end of navbar -->
   <!-- end of navigation -->
@@ -337,7 +340,7 @@
               <li><a href="#">About Us</a></li>
               <li><a href="#">Our Story</a></li>
               <li><a href="#">Projects</a></li>
-              <li><a href="#">Terms of Use</a></li>
+              <li><a href="TermsAndConditions.html" target="_blank">Terms of Use</a></li>
               <li><a href="#">Privacy Policy</a></li>
             </ul>
           </div>
@@ -387,6 +390,16 @@
     <!-- /.container -->
   </footer>
 </body>
+<script>
+  function myFunction() {
+    var x = document.getElementById("navbar-collapse");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
 <!-- <script src="
 https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js
 "></script> -->

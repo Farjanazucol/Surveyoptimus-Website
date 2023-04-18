@@ -421,6 +421,13 @@ select {
 	height: 30px;
 }
 
+.navbar .container a i{
+	display: none;
+	
+	color: white;
+}
+
+
 .navbar .logo-text {
 	color: #fff;
 	font-weight: 700;
@@ -590,16 +597,16 @@ background-size: auto;
 background-repeat: no-repeat;
 
 }
- .header .container .row{
+ /* .header .container .row{
 	margin-top: -70px;
-}
+} */
 
 
 .header .h1-large {
 	margin-bottom: 1.25rem;
 	color: #fff;
 	/* position: absolute; */
-	width: 600px;
+	/* width: 600px; */
 	/* height: 144px; */
 	left: 160px;
 	top: 244px;
@@ -623,6 +630,9 @@ line-height: 48px;
 
 .h1-large .text-yellow{
 	color: #d8b24a;
+	font-weight: 800;
+	/* font-size: 46px; */
+	font-family: Metropolis;
 }
 
  .p-large {
@@ -800,7 +810,7 @@ padding: 15px 35px;
 
 .form-control{
 	border: none;
-	height: 50px;
+	height: 70px;
 
 background: #F2F2F2;
 border-radius: 10px;
@@ -1587,9 +1597,9 @@ margin-right: 170px;
 	
 	
 	/* Header */
-	.header {
-		padding-top: 9rem;
-	}
+	/* .header {
+		padding-top: 122px;
+	} */
 
 	.header .h1-large {
 		font-size: 2.75rem;
@@ -2031,6 +2041,10 @@ border-radius: 0.4375px;
 
 /* Min-width 1200px */
 @media (min-width: 1200px) {
+
+	.navbar4 .navbar-expand-lg{
+		justify-content: space-evenly;
+	}
 	.display-3 {
 		
 		
@@ -2115,20 +2129,30 @@ opacity: 0.6;
 	margin-top: 0px;
 }
 
+
+
+/***************About Us Style*********************/
 	/* Header */
-	.header {
+
+	.globalPadding1 {
+		padding: 8rem 10rem;
+	}
+	.header .row{
 		/* padding-bottom: 11.5rem; */
+		margin-top: 122px;
 	}
 
-	.header .image-container {
-		position: relative;
+	.header .row .image-container {
+		/* position: relative;
+		top: 60px; */
+		/* margin-top: 300px; */
 	}
 	
 	.header .image-container img {
-		position: absolute;
+		/* position: absolute; */
 		top: 0px;
 		left: 200px; 
-		width: 560px;
+		/* width: 560px; */
 		max-width: none;
 	}
 	/* end of header */
@@ -2250,6 +2274,9 @@ opacity: 0.6;
 	color: red;
 }
 
+.aboutFooter{
+	/* margin-top: 122px; */
+}
 	.bg-light{
 		font-family: "Metropolis";
 	}
@@ -2277,7 +2304,10 @@ Faq Design
 *******************/
 
 
-
+.navbar a i{
+	display: none;
+	color: white;
+}
 
 
 .navbar-stick:not(.navbar-dark) {
@@ -2502,6 +2532,9 @@ width: 300px;
 
 @media  (max-width:530px){
 
+	.header .row .image-container {
+		display: none;
+	}
 	.header44{
 		height: 800px;
 	}
@@ -2736,6 +2769,7 @@ body {
 	height: 100%;
 }
 
+
 .responsiveTitle {
 	font-size: clamp(2.0275rem, 0.3775rem + 4.5833vw, 3rem) !important;
 	line-height: calc(1.2 * clamp(2.0275rem, 0.3775rem + 4.5833vw, 3rem)) !important;
@@ -2757,6 +2791,23 @@ body {
 	margin-bottom: calc( .4 * (0.3775rem + 4.5833vw)) !important;
 	opacity: 0.6;
 	/* max-width: 70%;	 */
+}
+
+.surveyDesc{
+	text-decoration: none;
+	list-style-type: none;
+	font-family: Matropolis;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+}
+
+.surveyDesc1{
+	font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
 }
 
 /* ---------------- */
@@ -2802,12 +2853,52 @@ h2 {
 
 
 @media (max-width: 1200px) {
+	.navbar a i{
+		display: none;
+		
+	}
+	.navbar .container a i{
+		display: none;
+	}
 	.globalPadding {
 	  padding: clamp(3rem, 4vw, 8rem);
 	}
+
+	/*******About Us*****/
+	.globalPadding1 {
+		padding: clamp(3rem, 4vw, 8rem);
+	  }
+  }
+
+  @media (max-width: 985px) {
+	.navbar .container a i{
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+		
+	}
+
+	.navbar a i{
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+	}
+	
   }
 
 @media screen and (max-width: 900px) {
+
+	.navbar .container a i{
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+	}
+
+	.navbar a i{
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+	}
 	.newHeaderImageContainer {
 		display: none;
 	}
@@ -2820,6 +2911,20 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+	
+
+	.navbar .container a i{
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+	}
+
+
+	.navbar a i{
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+	}
 	#JoinAndEarnTitle {
 		text-align: center;
 	}
@@ -2840,6 +2945,18 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
+
+	.navbar .container a i{
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+	}
+
+	.navbar a i{
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+	}
 	.gifDesktop {
 		display: none;
 	}
@@ -2848,11 +2965,27 @@ h2 {
 		display: flex;
 	}
 
+	.containerFaq .card-img-overlay .card-text{
+ padding: 20px;
+ font-size: 0px;
 	
 }
 
 
 @media screen and (max-width: 450px) {
+
+	.navbar .container a i{
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+	}
+
+	.navbar a i{
+		
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+	}
 	.gifDesktop {
 		display: none;
 	}
@@ -2890,10 +3023,41 @@ h2 {
 		width: 300px;
 	}
 
-	
+	.navbar .container a i{
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+	}
+
+	.navbar a i{
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+	}
+
+	.containerFaq .card-img-overlay .card-text{
+		padding: 20px;
+		font-size: 0px;
+		   
+	   }
+	}	   
 }
 
+
+
+
 @media screen and (max-width: 340px) {
+	.navbar .container a i{
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+	}
+
+	.navbar a i{
+		display: flex;
+		flex-direction: row;
+		font-size: 30px;
+	}
 	.gifDesktop {
 		display: none;
 	}
@@ -2918,4 +3082,82 @@ h2 {
 .ImageContainer img {
 	width: 100%;
 	height: 100%;
+}
+
+
+
+/*************Terms and conditions Style************/
+
+.globalPadding3{
+	padding: 0px 10rem;
+
+}
+
+.globalPadding3 nav{
+	padding: 20px;
+}
+
+.globalPadding .termsandcondtions{
+	padding: 60px;
+}
+
+.globalPadding1 .navbar4{
+	background: none;
+	
+}
+
+.mainsubdiv .termsandcondtions{
+	font-size: 2em;
+    font-weight: 700;
+
+    margin: 10px 0;
+    color: #464646;
+    text-align: left !important;
+
+}
+
+ .navbar4{
+	font-weight: 600;
+	font-size: 0.875rem;
+	/* height: 760px; */
+	line-height: 0.875rem;
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.10);
+}
+
+/* .navbar4 .navbar-nav {
+	
+	margin-bottom: 1.5rem;
+} */
+
+.navbar4 .nav-item .nav-link {
+	/* padding-top: 0.625rem;
+	padding-bottom: 0.625rem; */
+	font-size: 20px;
+	color: #000000;
+	text-decoration: none;
+	/* transition: all 0.2s ease; */
+}
+
+.navbar4 .nav-item .btn-solid-lg{
+	background-color: #a7351e;
+	border-radius: 10px;
+	padding: 15px 35px;
+}
+
+.mainsubdiv h4{
+	font-size: 22px;
+	font-family: "Metropolis";
+    color: #15273e;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.mainsubdiv p{
+	font-size: 1.2em;
+    font-weight: 400;
+    line-height: 28px;
+    color: #444;
+    margin-bottom: 10px;
+    font-family: "Metropolis"
 }

@@ -3797,6 +3797,10 @@ fieldset:disabled .btn {
   margin-bottom: 0;
   list-style: none;
 }
+
+.navbar-nav span a{
+  margin-top: -20px;
+}
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
@@ -3809,6 +3813,7 @@ fieldset:disabled .btn {
   padding-bottom: 0.5rem;
 }
 .navbar-collapse {
+  margin-top: -20px;
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
@@ -4389,7 +4394,7 @@ fieldset:disabled .btn {
   text-align: left;
   background-color: #fff;
   border: 0;
-  border-radius: 0;
+  border-radius: 10px;
   overflow-anchor: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
@@ -4438,6 +4443,7 @@ fieldset:disabled .btn {
   margin-bottom: 0;
 }
 .accordion-item {
+  margin-top: 25px;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -4471,10 +4477,17 @@ fieldset:disabled .btn {
   border-width: 0;
 }
 .accordion-flush .accordion-item {
-  border-right: 0;
-  border-left: 0;
-  border-radius: 0;
+  border-radius:
+  18px;
+  /* border-right: 0;
+  border-left: 0; */
+ border: none;
 }
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+  border-radius:  18px;
+}
+
 .accordion-flush .accordion-item:first-child {
   border-top: 0;
 }
@@ -4482,7 +4495,7 @@ fieldset:disabled .btn {
   border-bottom: 0;
 }
 .accordion-flush .accordion-item .accordion-button {
-  border-radius: 0;
+  border-radius: 10px;
 }
 .breadcrumb {
   display: flex;

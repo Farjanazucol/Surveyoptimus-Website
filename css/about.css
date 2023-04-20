@@ -35,7 +35,7 @@ body, p {
 	/* height: 770px; */
 	
 	
-    padding-top: 0px;
+    /* padding-top: 0px; */
 	/* padding-bottom: 5rem; */
     background-size: cover;
    
@@ -322,6 +322,7 @@ FAQ
 
 .globalPadding {
 	padding: 8rem 10rem;
+    padding-bottom: 0;
 }
 .navbar3
 {
@@ -709,6 +710,7 @@ color: #2F2F2F;
 
     .globalPadding {
         padding: 8rem 10rem;
+        padding-bottom: 0;
     }
     .newHeader {
 	color: white;

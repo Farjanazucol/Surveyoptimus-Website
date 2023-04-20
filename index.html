@@ -27,37 +27,62 @@
   <link href="css/fontawesome-all.min.css" rel="stylesheet">
   <link href="css/swiper.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
+  <link href="css/humb.css" rel="stylesheet">
+	
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbarExample">
 
+  <section class=" gifMobile  top-nav2  globalPadding1" >
+      
+    <div class="top-nav2 container navbar3 ">
+     <div style="z-index: 10000000;">
+      <img src="./images/MicrosoftTeams-image11.png" />
+
+     </div>
+     <input id="menu-toggle" type="checkbox" />
+     <label class='menu-button-container' for="menu-toggle">
+         <div class='menu-button'></div>
+     </label>
+     <ul class="menu">
+      <li> <a class="nav-link" aria-current="page" href="#">How it Works</a></li>
+         <li> <a class="nav-link" href="#">Rewards</a></li>
+         <li>   <a class="nav-link" href="Faq.html">FAQ's</a></li>
+         <li >
+          <a  style="background-color: #eea849; padding: 10px 20px; border-radius: 10px; color: #000000;" href="#contact">Signup</a>
+         </li>
+     </ul>
+    </div>
+  
+  </section>
+  <!-- Mobile Navigation bar -->
+  
+
+
   <!-- Navigation -->
-  <nav id="navbarExample" class="navbar navbar-expand-lg  globalPadding" style="padding-top: 1rem; padding-bottom: 0;"
+  <nav id="navbarExample" class="navbar navbar-expand-lg d-none
+   globalPadding" style="padding-top: 1rem; padding-bottom: 0;"
     aria-label="Main navigation">
-    <div class="container m-0">
+    <div class="container m-0" >
       <!-- Image Logo -->
       <a class="navbar-brand logo-image" href="index.html"><img src="./images/MicrosoftTeams-image11.png"
           alt="surveyoptimus"></a>
 
-      <!-- Text Logo - Use this if you don't have a graphic logo -->
-      <!-- <a class="navbar-brand logo-text" href="index.html">Zinc</a> -->
+      <div class="collapse navbar-collapse top-nav-collapse  " id="navbarsExampleDefault">
 
-      <!-- <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
-
-      <div class="navbar-collapse offcanvas-collapse top-nav-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav ms-auto navbar-nav-scroll">
+      
+        <ul class="navbar-nav ms-auto navbar-nav-scroll" id="menu">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#" target="_blank">How it
+            <a class="nav-link active" aria-current="page" href="#" >How it
               Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="About.html">Rewards</a>
+            <a class="nav-link" href="#">Rewards</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Faq.html">FAQ's</a>
@@ -80,12 +105,16 @@
           <a class="btn-solid mb-lg-20" href="#contact">Signup</a>
         </span>
       </div> <!-- end of navbar-collapse -->
-      <a href="javascript:void(0);" class="icon">
+      <a href="javascript:void(0);" class="icon" onclick=myFunction()>
         <i class="fa fa-bars"></i>
       </a>
     </div> <!-- end of container -->
   </nav> <!-- end of navbar -->
   <!-- end of navigation -->
+
+<!----Mobile Navigation---->
+
+<!-----End Mobile Navigation------>
 
   <header class="newHeader globalPadding">
     <div class="newHeaderContentContainer">
@@ -306,102 +335,105 @@
     </div>
   </div>
 
-  <footer class="bg-light">
+  <footer class="bg-light ">
     <!-- <div class="globalPadding "> -->
-      <div class="row gy-6 gy-lg-0 globalPadding">
+      <div class="row gy-6 gy-lg-0 globalPadding" style="padding-bottom: 0;">
         <div class="col-md-4 col-lg-3">
           <div class="widget">
-            <img class="mb-4" src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="">
-            <p class="mb-4">© 2022 Sandbox. <br class="d-none d-lg-block">All rights reserved.</p>
-            <nav class="navsocial ">
-              <a href="#"><i class="fa  fa-twitter "></i></a>
-              <a href="#"><i class="fa  fa-facebook-f mx-2"></i></a>
-              <a href="#"><i class="fa fa-instagram"></i></a>
-              <a href="#"><i class="fa fa-youtube mx-2"></i></a>
-            </nav>
+            <img class="mb-4" src="./images/TermsandconditionsLogo.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="">
+            <p class="mt-2">
+              <b style="color: black;">Service contact</b> :<br/>
+            
+             <a href="mailto:support@surveyoptimus.com">support@surveyoptimus.com</a></p>
+           
             <!-- /.social -->
           </div>
           <!-- /.widget -->
         </div>
         <!-- /column -->
+        
         <div class="col-md-4 col-lg-3">
           <div class="widget">
-            <h4 class="widget-title  mb-3">Get in Touch</h4>
-            <address class="pe-xl-13 pe-xxl-15">Moonshine St. 14/05 Light City, London, United Kingdom</address>
-            <a href="mailto:#" class="link-body">info@email.com</a><br> 00 (123) 456 78 90
-          </div>
-          <!-- /.widget -->
-        </div>
-        <!-- /column -->
-        <div class="col-md-4 col-lg-3">
-          <div class="widget">
-            <h4 class="widget-title  mb-3">Learn More</h4>
+            <h4 class="widget-title  mb-3"  style="color: #464646; font-weight: 700;">IMPORTANT LINKS</h4>
             <ul class="list-unstyled text-reset mb-0">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Our Story</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="TermsAndConditions.html" target="_blank">Terms of Use</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="About.html">About Us</a></li>
+             
+              <li><a href="#">How it works</a></li>
+             
             </ul>
           </div>
           <!-- /.widget -->
         </div>
+        <div class="col-md-4 col-lg-3 mt-5">
+          <div class="widget">
+           
+            
+            <ul class="list-unstyled"> <li><a href="TermsAndConditions.html">Terms and conditions</a></li>
+              <li><a href="TermsAndConditions.html">Privacy Policy</a></li>
+              
+              <li><a href="Faq.html">Frequently asked Questions</a></li></ul>
+          </div>
+          <!-- /.widget -->
+        </div>
         <!-- /column -->
+        <!-- /column -->
+
         <div class="col-md-12 col-lg-3">
           <div class="widget">
-            <h4 class="widget-title  mb-3">Our Newsletter</h4>
-            <p class="mb-5">Subscribe to our newsletter to get our news &amp; deals delivered to you.</p>
-            <div class="newsletter-wrapper">
-              <!-- Begin Mailchimp Signup Form -->
-              <div id="mc_embed_signup2">
-                <form
-                  action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
-                  method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate "
-                  target="_blank" novalidate="">
-                  <div id="mc_embed_signup_scroll2">
-                    <div class="mc-field-group input-group form-floating">
-                      <input type="email" value="" name="EMAIL" class="required email form-control"
-                        placeholder="Email Address" id="mce-EMAIL2">
-                      <label for="mce-EMAIL2">Email Address</label>
-                      <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2"
-                        class="btn btn-primary ">
-                    </div>
-                    <div id="mce-responses2" class="clear">
-                      <div class="response" id="mce-error-response2" style="display:none"></div>
-                      <div class="response" id="mce-success-response2" style="display:none"></div>
-                    </div>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                        name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
-                    <div class="clear"></div>
-                  </div>
-                </form>
-              </div>
-              <!--End mc_embed_signup-->
+            <h4 class="widget-title  mb-3"  style="color: #464646; font-weight: 700;">FOLLOW US</h4>
+            <div class="navsocial ">
+              <a href="https://twitter.com/SurveyOptimus" target="_blank"><i class="fa  fa-twitter "></i></a>
+              <a  href="https://www.facebook.com/SurveyOptimusOfficial/" target="_blank"><i class="fa  fa-facebook-f mx-2"></i></a>
+              <a href="https://www.instagram.com/surveyoptimus/" target="_blank"><i class="fa fa-instagram"></i></a>
+             
             </div>
+            <!-- <div class="newsletter-wrapper mt-2">
+             <div id="google_translate_element">
+              <div class="skiptranslate goog-te-gadget" dir="ltr">
+                <div id=":0.targetLanguage">
+                  <select class="goog-te-combo mb-1" aria-label="Language Translate Widget">
+                    <option value="">Select Language</option>
+                    <option value="af">English</option>
+                    <option value="sq">Hindi</option>
+                    
+            
+              
+        
+             
+            </select>
+          </div>Powered by <span style="white-space:nowrap">
+              <a class="VIpgJd-ZVi9od-l4eHX-hSRGPd" href="https://translate.google.com" target="_blank">
+                <img src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png" width="37px" height="14px" style="padding-right: 3px" alt="Google Translate">Translate</a></span></div></div>
+            </div> -->
             <!-- /.newsletter-wrapper -->
           </div>
           <!-- /.widget -->
         </div>
         <!-- /column -->
+        <div class="footer-copy ">
+          <div class="row">
+            <div class="col-12">
+                              <p>(C) Copyright by SurveyOptimus. All Rights Reserved.</p>
+            </div><!-- col -->
+          </div> <!-- row -->
+        </div> <!-- footer-copy -->
       </div>
       <!--/.row -->
     <!-- </div> -->
     <!-- /.container -->
   </footer>
-</body>
-<script>
-  function myFunction() {
-    var x = document.getElementById("navbar-collapse");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("#navbarExample");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+        alert("Pressed")
+      } else {
+        x.style.display = "block";
+      }
     }
-  }
-  </script>
-<!-- <script src="
-https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js
-"></script> -->
+    </script>
 
+</body>
 </html>

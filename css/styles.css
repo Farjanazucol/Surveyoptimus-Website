@@ -2839,6 +2839,7 @@ body {
 	margin-bottom: calc( .4 * (0.3775rem + 4.5833vw)) !important;
 	/* opacity: 0.6; */
 	/* max-width: 70%;	 */
+	font-weight: 200px;
 }
 
 .surveyDesc{

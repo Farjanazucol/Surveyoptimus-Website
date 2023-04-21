@@ -2459,6 +2459,19 @@ Faq Design
 		display: none;
 	}
 
+	.widget ul li a{
+		list-style: none;
+		text-decoration: none;
+		list-style-type: none;
+	}
+
+	nav .collapse ul li a{
+		list-style: none;
+		text-decoration: none;
+		list-style-type: none;
+	}
+
+
 	/* .navsocial  .fa-twitter{
 		color: #007aff;
 	}
@@ -2474,6 +2487,20 @@ Faq Design
 	} */
 }
 
+
+@media (max-width: 430px)
+{
+.downloadApp  .downloadAppIcon{
+	margin-top: 20px;
+	align-items: center;
+	
+}
+
+.downloadAppIcon{
+	width: 160px;
+}
+}
+
 @media (max-width: 400px)
 {
 	.container .row .text-container  img{
@@ -2481,6 +2508,8 @@ Faq Design
 		margin-top: 40px;
 
 	}
+
+	
 
 	/* .navsocial  .fa-twitter{
 		color: #007aff;
@@ -3001,6 +3030,8 @@ h2 {
 		
 
 	}
+
+	
 }
 
 @media screen and (max-width: 600px) {

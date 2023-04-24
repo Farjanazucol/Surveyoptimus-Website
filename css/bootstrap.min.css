@@ -775,7 +775,7 @@ progress {
 }
 .g-4,
 .gx-4 {
-  --bs-gutter-x: 1.5rem;
+  /* --bs-gutter-x: 1.5rem; */
 }
 .g-4,
 .gy-4 {
@@ -943,7 +943,7 @@ progress {
   }
   .g-sm-4,
   .gx-sm-4 {
-    --bs-gutter-x: 1.5rem;
+    /* --bs-gutter-x: 1.5rem; */
   }
   .g-sm-4,
   .gy-sm-4 {

@@ -3073,8 +3073,24 @@ h2 {
 		
 
 	}
-
+	.grid-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	  }
+	  
+	  .grid-item {
 	
+		
+		
+		text-align: center;
+	  }
+
+	/* .row .col-lg-3 .rounded-xl{
+		display: grid;
+  grid-template-columns: 300px 1fr;
+	}
+
+	 */
 }
 
 @media screen and (max-width: 600px) {

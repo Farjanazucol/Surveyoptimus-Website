@@ -778,6 +778,7 @@ top: 1396px; */
 
 
 .btn-blue{
+	display: none;
 	background-color: #4868AD;
 	color: white;
 padding: 15px 16px;
@@ -2960,8 +2961,19 @@ h2 {
 	display: none;
 }
 
+::-webkit-input-placeholder { /* Edge */
+	color: #000000 !important;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #000000 !important;
+  }
+  
+  ::placeholder {
+	color: #000000 !important;
+  }
 
-
+ 
 
 @media (max-width: 1200px) {
 	.navbar a i{

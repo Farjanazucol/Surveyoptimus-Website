@@ -3,10 +3,10 @@
 	src: url("../fonts/metropolis/Metropolis-Regular.otf") format("opentype");
 }
 
-h2 {
+/* h2 {
   vertical-align: center;
   text-align: center;
-}
+} */
 
 html, body {
   margin: 0;

@@ -761,8 +761,8 @@ border-radius: 18.5625px;
 	display: flex;
 flex-direction: row;
 
-justify-content: end;
-align-items: end;
+justify-content: center;
+align-items: center;
 /* padding: 24px 32px; */
 gap: 16px;
 
@@ -2351,6 +2351,7 @@ opacity: 0.6;
 
 .aboutFooter{
 	background-color: #eaeaea;
+	
 }
 	.bg-light{
 		font-family: "Metropolis";

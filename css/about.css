@@ -96,9 +96,9 @@ line-height: 48px;
    
 }
 
-.text-container .text-start{
+/* .text-container .text-start{
   
-}
+} */
 
 .responsiveTitle {
 	font-size: clamp(2.0275rem, 0.3775rem + 4.5833vw, 3rem) !important;
@@ -195,9 +195,9 @@ text-align: center;
     font-family: Metropolis;
  }
 
-.header .container .row {
-    /* margin-top: -70px; */
-}
+/* .header .container .row {
+    margin-top: -70px;
+} */
 
 .header .row .text-container .eyestext{
     line-height: 55px;
@@ -524,9 +524,9 @@ border-radius: 18px;
     {
 
         
-.header1{
-    /* height: 600px; */
-}
+/* .header1{
+    height: 600px;
+} */
         .container .row .imgcontainer img{
             display: none;
          }
@@ -580,17 +580,20 @@ color: #2F2F2F;
 
          .containerFaq .card-text{
             font-size: 22px;
+            margin-top: 4rem;
+           text-align: left;
          }
 
-         /* .containerFaq {
+         .containerFaq {
             display: contents;
+           
           
         }
         
         .card-text{
            
-            color: black;
-        } */
+            color: black !important;
+        }
 
 
         }

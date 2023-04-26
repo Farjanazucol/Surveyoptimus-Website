@@ -568,9 +568,9 @@ background: #103462;
 	
 }
 
-.header4 .container .row{
-	/* width: 1440px; */
-}
+/* .header4 .container .row{
+	width: 1440px;
+} */
 .header4 .container .text-container .surveyoptimus { 
 	width: 500px;
 font-size: 18px;
@@ -676,11 +676,11 @@ opacity: 0.6;
 	margin-bottom: 5rem;
 }
 
-.container .text-container{
-	/* height: 613px; */
-	/* padding-top: 8rem; */
+/* .container .text-container{
+	height: 613px;
+	padding-top: 8rem;
 	
-}
+} */
 
 /***************
 FormDesign
@@ -1867,8 +1867,8 @@ border-radius: 20px;
 fill: black; */
 	}
 
-	.badgessvg .svg-bg .bg-yellow {}
-
+	/* .badgessvg .svg-bg .bg-yellow {}
+ */
 
 
 	.badgessvg .rounded-xl {
@@ -2110,9 +2110,9 @@ opacity: 0.6;
 	}
 	
 	/* General Styles */
-	.container {
-		/* max-width: 1440px; */
-	}
+	/* .container {
+		max-width: 1440px;
+	} */
 	/* end of general styles */
 	
 	/* .container1{
@@ -2186,11 +2186,11 @@ opacity: 0.6;
 		margin-top: 122px;
 	}
 
-	.header .row .image-container {
-		/* position: relative;
-		top: 60px; */
-		/* margin-top: 300px; */
-	}
+	/* .header .row .image-container {
+		position: relative;
+		top: 60px;
+		margin-top: 300px;
+	} */
 	
 	.header .image-container img {
 		/* position: absolute; */
@@ -3055,16 +3055,19 @@ h2 {
 		text-align: left !important;
 	}
 
-	.submitBtn{
+	/* .submitBtn{
 		display: flex;
-	}
+	} */
 }
 
 
 @media screen and (max-width: 980px) {
-	.submitBtn{
+
+	
+
+	/* .submitBtn{
 		display: flex;
-	}
+	} */
 
 	.form-check-label{
 		font-size: 12px;
@@ -3082,6 +3085,8 @@ h2 {
 	
 
 @media screen and (max-width: 767px) {
+
+
 	
 	.gifDesktop {
 		display: none;

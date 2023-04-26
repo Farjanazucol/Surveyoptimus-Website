@@ -522,6 +522,8 @@ border-radius: 18px;
 
   
     {
+
+        
 .header1{
     /* height: 600px; */
 }
@@ -570,6 +572,8 @@ color: #2F2F2F;
     
 
     @media screen and (max-width: 767px) {
+
+        
         .containerFaq{
             padding: 30px;
          }
@@ -577,6 +581,18 @@ color: #2F2F2F;
          .containerFaq .card-text{
             font-size: 22px;
          }
+
+         /* .containerFaq {
+            display: contents;
+          
+        }
+        
+        .card-text{
+           
+            color: black;
+        } */
+
+
         }
 
     @media (max-width: 400px)

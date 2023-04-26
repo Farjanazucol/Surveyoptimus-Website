@@ -756,6 +756,11 @@ background-color: #d1d34b;
 border-radius: 18.5625px;
 }
 
+
+ /* .btn-black .btn-blue{
+	padding: clamp(5.0275rem, 8.3775rem + 4.5833vw, 3rem) !important;
+
+} */
  .submitBtn{
 
 	display: flex;
@@ -3047,12 +3052,20 @@ h2 {
 		align-items: center;
 	}
 	.newHeaderContentContainer h1, h3 {
-		text-align: center !important;
+		text-align: left !important;
+	}
+
+	.submitBtn{
+		display: flex;
 	}
 }
 
 
 @media screen and (max-width: 980px) {
+	.submitBtn{
+		display: flex;
+	}
+
 	.form-check-label{
 		font-size: 12px;
 	}

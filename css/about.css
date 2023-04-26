@@ -267,6 +267,10 @@ border-radius: 20px;
 
 
 @media (max-width: 400x){
+/* .AboutTextContainer{
+    margin-right: 0px;
+} */
+
 .container .text-container {
     width: 0px;
     padding-left: 0px;
@@ -752,6 +756,11 @@ color: #2F2F2F;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.AboutTextContainer{
+    width: 85%;
+	height: 100%;
 }
 
 .newHeaderImageContainer img {

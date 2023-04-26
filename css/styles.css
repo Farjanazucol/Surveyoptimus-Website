@@ -761,7 +761,7 @@ border-radius: 18.5625px;
 	display: flex;
 flex-direction: row;
 
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 /* padding: 24px 32px; */
 gap: 16px;
@@ -778,7 +778,7 @@ top: 1396px; */
 
 
 .btn-blue{
-	display: none;
+	
 	background-color: #4868AD;
 	color: white;
 padding: 15px 16px;
@@ -789,25 +789,25 @@ border-radius: 10px;
 	background-color: #000000;
 	color: white;
 	border-radius: 10px;
-padding: 15px 35px;
+padding: 15px 16px;
 }
 
-.submitBtn .btn-blue{
+/* .submitBtn .btn-blue{
 	background: #4868AD;
 	border-radius: 10px;
 	gap: 16px;
 	color: #fff;
 	padding: 24px, 32px, 24px, 32px;
-}
+} */
 
-.submitBtn .btn-primary{
+/* .submitBtn .btn-primary{
 	background: #000000;
 	border-radius: 10px;
 	border: #000000;
 	padding: 24px, 32px, 24px, 32px;
 	gap: 16px;
 	color: #fff;
-}
+} */
 
 .form-control{
 	border: none;
@@ -2543,7 +2543,11 @@ Faq Design
 }
 
 @media (max-width: 400px)
+
 {
+	
+
+
 	.container .row .text-container  img{
 		width: 450px;
 		margin-top: 40px;

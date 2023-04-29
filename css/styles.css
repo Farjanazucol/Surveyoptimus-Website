@@ -602,7 +602,7 @@ background-repeat: no-repeat;
 } */
 
 
-.header .h1-large {
+.header h1 {
 
 	
 	
@@ -622,7 +622,7 @@ color: #FFFFFF;
 
 }
 
-.h1-large .text-yellow{
+h1 .text-yellow{
 	color: #d8b24a;
 	font-weight: 800;
 	/* font-size: 46px; */
@@ -1642,7 +1642,7 @@ margin-right: 170px;
 		padding-top: 122px;
 	} */
 
-	.header .h1-large {
+	.header h1{
 		font-size: 2.75rem;
 		line-height: 3.5rem;
 	}
@@ -2591,6 +2591,7 @@ Faq Design
 
 {
 
+	
 	.mindBlowText {
 		font-family: 'Metropolis';
 		font-style: normal;
@@ -2745,6 +2746,19 @@ width: 300px;
 
 @media  (max-width:530px){
 
+
+	.AboutTextContainer{
+		text-decoration: none;
+		list-style-type: none;
+		font-family: 'Metropolis';
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 30px;
+	max-width: 100%;
+	color: #010101;
+	opacity: 0.6;
+	}
+	
 	.header .row .image-container {
 		display: none;
 	}
@@ -3294,6 +3308,7 @@ margin-top: 40px;
 font-weight: 500;
 font-size: 22px;
 line-height: 30px;
+max-width: 100%;
 color: #010101;
 opacity: 0.6;
 }
@@ -3384,6 +3399,17 @@ h2 {
 
  
   @media  (max-width: 1500px){
+
+	.containerFaq .card-text1 {
+		/* padding-top: 20px; */
+		color: white;
+		font-weight: 700;
+		/* padding: 80px; */
+		padding-bottom: 0;
+		font-size: 10px;
+		line-height: 48px;
+	}
+
 	.newHeaderContentContainer{
 		/* margin-top: 20rem; */
 
@@ -3461,6 +3487,21 @@ h2 {
 		font-size: 30px;
 	}
 
+  }
+
+  @media screen and (max-width: 830px){
+	.containerFaq .card-text1{
+       
+   
+		color: white;
+		text-align: center;
+		font-weight: 500;
+		/* width: 100%; */
+		padding-bottom: 0;
+		font-size: 22px !important;
+		line-height: 48px !important;
+	
+}
   }
 
 @media screen and (max-width: 900px) {
@@ -3571,7 +3612,7 @@ h2 {
 		font-size: 30px;
 	}
 	#JoinAndEarnTitle {
-		text-align: center;
+		text-align: left;
 	}
 
 	.mindBlownContainer {
@@ -3652,6 +3693,9 @@ h2 {
 
 
 @media screen and (max-width: 450px) {
+
+	
+
 
 	.newHeaderContentContainer h1{
 
@@ -3745,21 +3789,14 @@ font-size: 30px;
 		font-size: 30px;
 	}
 
-	/* .containerFaq .card-img-overlay .card-text{
+	.containerFaq  .card-text1{
 		padding: 20px;
 		font-size: 0px;
 		   
-	   } */
+	   }
 
 
-	   .containerFaqa{
-		margin-top: 80px;
-		background-image: url("../images/AboutImageText2.png");
- background-repeat: no-repeat;
- border-radius: 10;
-		
-		
-	}
+	 
 		   
 }
 

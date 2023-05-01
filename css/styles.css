@@ -2873,7 +2873,7 @@ h3 {
     font-family: 'Metropolis';
     font-style: normal;
     font-weight: 600;
-    font-size: 62px;
+    font-size: 60px;
     line-height: 63px;
     /* or 102% */
     color: #595959;
@@ -2957,7 +2957,7 @@ h3 {
 }
 
 .checkbox>input {
-    height: 23px;
+    height: 18px;
     width: 70px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -3022,7 +3022,7 @@ align-items: Center; */
     font-weight: 400;
     /* padding: 0px 70px; */
     color: #010101;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px !important;
     margin-top: 40px;
     /* font-size: clamp(1rem, 0.653rem + .961vw, 1.375rem) !important; */
@@ -3141,6 +3141,11 @@ h2 {
     line-height: 55px;
 }
 
+.TitleAccent1 {
+    color: #4F8F45;
+    font-size: 68px;
+}
+
 .TitleAccent {
     color: #4F8F45;
 }
@@ -3255,7 +3260,7 @@ h2 {
         max-width: 75%;
     }
     .responsiveDescription {
-        max-width: 80%;
+        /* max-width: 80%; */
     }
 }
 

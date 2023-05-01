@@ -2745,7 +2745,9 @@ width: 300px;
 
 
 @media  (max-width:530px){
-
+.widget{
+	margin-top: 20px;
+}
 
 	.AboutTextContainer{
 		text-decoration: none;
@@ -3505,6 +3507,11 @@ h2 {
   }
 
 @media screen and (max-width: 900px) {
+
+	.containerFaq .card-text1 .cardDescription{
+        color: #010101 !important;
+        
+    }
 
 	.newHeaderContentContainer{
 		/* margin-top: 10rem; */

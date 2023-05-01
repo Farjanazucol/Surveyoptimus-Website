@@ -145,7 +145,7 @@ border-radius: 10;
 }
 
 .Faq {
-  font-weight: 900;
+  font-weight: 900 !important;
   font-size: 58px;
   font-family: 'Metropolis';
   line-height: 50px;
@@ -616,6 +616,8 @@ FAQ
 }
 
 @media screen and (max-width: 767px) {
+
+   
   .containerFaq {
     padding: 30px;
   }

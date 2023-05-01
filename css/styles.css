@@ -3799,7 +3799,14 @@ font-size: 30px;
 	.containerFaq  .card-text1{
 		padding: 20px;
 		font-size: 0px;
+		
 		   
+	   }
+
+	   .containerFaq .card-text1 .cardDescription{
+		background-color: white !important;
+		color: #000000;
+		
 	   }
 
 

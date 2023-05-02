@@ -3376,6 +3376,10 @@ h2 {
 
 @media screen and (max-width: 767px) {
 
+	.PrivacyContainer{
+		padding-top: 70px;
+	}
+
 	.SurveyOptimusDesc{
 		padding-top: 70px;
 	}

@@ -148,6 +148,15 @@ border-radius: 10;
     text-align: center;
 }
 
+
+.HeaderTerms{
+    font-weight: 900 !important;
+    font-size: 58px;
+    font-family: 'Metropolis';
+    line-height: 50px;
+    text-align: center;
+}
+
 .FaqDesc {
     padding-top: 20px;
     font-family: 'Metropolis';
@@ -660,6 +669,12 @@ FAQ
 }
 
 @media (max-width: 530px) {
+    .PrivacyContainer {
+        min-width: 40px;
+        width: 100%;
+        padding: px;
+        padding: 70px 40px;
+    }
     
     .SurveyOptimusDesc{
         min-width: 40px;

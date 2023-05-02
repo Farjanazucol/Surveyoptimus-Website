@@ -26,8 +26,8 @@ body {
     background: linear-gradient( #eea849);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFF;
-    height: 90px;
-    padding: 4rem;
+    /* height: 90px;
+    padding: 4rem; */
 }
 
 .top-nav {
@@ -35,11 +35,11 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* background-color: #4F8F45; */
-    background: linear-gradient( #4F8F45);
+    background-color: #f4ae34;
+    /* background: linear-gradient( #4F8F45); */
     color: #FFF;
-    height: 90px;
-    padding: 1em;
+    /* height: 90px;
+    padding: 1em; */
 }
 
 
@@ -53,8 +53,8 @@ body {
     background-color: #4F8F45 !important;
     background: linear-gradient( #4F8F45);
     color: #FFF;
-    height: 90px;
-    padding: 1em;
+    /* height: 90px;
+    padding: 1em; */
 }
 
 
@@ -67,8 +67,8 @@ body {
     justify-content: space-between;
     background-color: #103462 !important;
     background: linear-gradient( #103462);
-    color: #FFF;
-    height: 90px;
+    /* color: #FFF;
+    height: 90px; */
 }
 
 

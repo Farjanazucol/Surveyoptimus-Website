@@ -2531,6 +2531,30 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
+
+    .widget ul li{
+        text-align: center;
+    }
+
+    .widget .navsocial{
+        text-align: center;
+    }
+
+    .widget h4{
+        text-align: center;
+    }
+    .widget p{
+        text-align: center;
+    }
+
+    .widget{
+        text-align: center;
+    }
+
+    .widget {
+        margin-top: 20px;
+    }
+
     .top-nav.globalVerticalPadding, .top-nav1.globalVerticalPadding, .top-nav2.globalVerticalPadding {
         padding: 15px 25px;
     }

@@ -1574,6 +1574,10 @@ footer .container .row {}
 /* Min-width 992px */
 
 @media (min-width: 992px) {
+    .newHeaderImageContainer1{
+        margin-top: 50px !important;
+
+    }
     .h2-heading {
         width: 35.25rem;
         margin-right: auto;
@@ -1970,7 +1974,7 @@ h3 {
 }
 
 .newHeaderImageContainer {
-   
+   margin-top: 50px;
     display: flex;
     object-fit: cover;
     overflow: hidden;

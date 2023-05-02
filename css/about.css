@@ -121,7 +121,7 @@ border-radius: 10;
 
 @media (max-width: 1199px) {
     .image-container1 img {
-        margin-top: 5rem;
+        /* margin-top: 5rem; */
     }
 }
 
@@ -149,6 +149,7 @@ border-radius: 10;
 }
 
 .FaqDesc {
+    padding-top: 20px;
     font-family: 'Metropolis';
     font-weight: 500;
     font-size: 16px;
@@ -156,18 +157,30 @@ border-radius: 10;
     text-align: center;
 }
 
+.bg-light{
+    margin-top: 122px;
+}
+
+.FaqFooter{
+    padding-top: 70px;
+}
+
 .image-container1 {
-    margin-top: -200px;
+    margin-top: -50px;
     margin-bottom: 0px;
 }
 
+.SurveyOptimusDesc{
+    padding-top: 140px;
+}
+
 .containerFaq {
-    /* margin-top: 120px; */
+   
     border-radius: 18px;
     background-image: url("../images/AboutBackground.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    /* padding: 90px 140px; */
+    
 }
 
 
@@ -370,6 +383,11 @@ FAQ
     /* height: 327px; */
     /* text-align: center; */
     /* background-image: url("../images/MicrosoftTeams-imageFaqBackground.png"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: center;
+    
+    text-align: center;
     background-image: url("../images/MicrosoftTeams-imageFaqBackground.png");
     /* background: #F4AE34 !important; */
 }

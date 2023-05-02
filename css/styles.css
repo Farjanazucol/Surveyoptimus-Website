@@ -3375,6 +3375,11 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+
+	.SurveyOptimusDesc{
+		padding-top: 70px;
+	}
+
     .newHeaderContentContainer {
         /* margin-top: 20rem; */
         font-size: 40px;

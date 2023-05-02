@@ -384,7 +384,8 @@ FAQ
     /* text-align: center; */
     /* background-image: url("../images/MicrosoftTeams-imageFaqBackground.png"); */
     background-repeat: no-repeat;
-    background-size: 100%;
+ background-size: cover;
+   
     align-items: center;
     
     text-align: center;
@@ -659,6 +660,13 @@ FAQ
 }
 
 @media (max-width: 530px) {
+    
+    .SurveyOptimusDesc{
+        min-width: 40px;
+    width: 100%;
+    padding: px;
+    padding: 70px 20px;
+    }
     .header44 {
         height: 800px;
     }

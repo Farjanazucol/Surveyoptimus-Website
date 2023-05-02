@@ -2715,7 +2715,7 @@ align-items: Center; */
     /* line-height: calc(1.2 * clamp(1rem, 0.653rem + .961vw, 1.375rem)) !important; */
     /* margin-bottom: calc( .4 * (0.3775rem + 4.5833vw)) !important; */
     opacity: 0.6;
-    max-width: 80%;
+    max-width: 59%;
 }
 
 .responsiveDescription2 {
@@ -3385,6 +3385,9 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
+    .responsiveDescription3 {
+        max-width: 80%;
+    }
     .gifMobile {
         display: flex;
     }
@@ -3429,6 +3432,7 @@ h3 {
 }
 
 @media screen and (max-width: 400px) {
+
     .top-nav.globalVerticalPadding, .top-nav1.globalVerticalPadding, .top-nav2.globalVerticalPadding{
         padding: 12px;
     }

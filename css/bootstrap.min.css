@@ -5089,6 +5089,7 @@ fieldset:disabled .btn {
 
 .accordion-flush .accordion-item .accordion-button {
     border-radius: 10px;
+    font-family: 'Metropolis';
 }
 
 .breadcrumb {
